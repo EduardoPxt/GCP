@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenCalcPro</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Barra de Menu com logo -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="/img/gcp1bg.png" alt="Logo GreenCalcPro">
+        </div>
+        <ul>
+            <li><a href="/sites/sobre.html">Sobre</a></li>
+            <li><a href="/index.html">Home</a></li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <div class="conteudo-centralizado">
+        <div class="caixa">
+            <div class="texto">
+                <h2>Sobre GreenCalcPro</h2>
+                <p>A GreenCalcPro é uma ferramenta voltada para ajudar os usuários a estimar as emissões de dióxido de carbono (CO2) dos seus veículos, promovendo a conscientização ambiental. Calculadoras de emissões de carbono, como a GreenCalcPro, funcionam com base em uma série de dados fornecidos pelo usuário, como o tipo de combustível do veículo, a quilometragem percorrida e a eficiência do consumo de combustível. Com essas informações, a ferramenta calcula a quantidade estimada de CO2 emitida durante o funcionamento do veículo, permitindo que o usuário compreenda melhor o impacto ambiental de suas escolhas de transporte.</p>
+                <p>Venha Conhecer Nossa Calculadora! Faça o download do nosso software para controlar a sua pegada de carbono e fazer escolhas mais sustentáveis.</p>
+                <a href="https://github.com/EduardoPxt/GCP/releases/download/V1.3.0/gcp.exe" download="gcp.exe" class="botao-acesso">Download GreenCalcPro</a>
+            </div>
+            <div class="imagem-container">
+                <img src="/img/pexels-mikhail-nilov-8297804.jpg" alt="Imagem Caixa 1" class="imagem-caixa">
+                <!-- Aqui pode colocar os ícones como imagem ou como botões simples -->
+            </div>
+        </div>
+        <div class="caixa caixa-caracteristicas">
+            <!-- Aqui está o título das características, acima das caixas -->
+            <h2>Características da GreenCalcPro</h2>
+            <div class="caracteristicas-lista">
+                <div class="caracteristica">
+                    <h3>Estimativa Personalizada de Emissões</h3>
+                    <p>Combustível, consumo do combustível e quilometragem percorrida, com esses dados, a calculadora gera uma estimativa personalizada da quantidade de dióxido de carbono (CO2) emitido, tornando a análise precisa.</p>
+                </div>
+                <div class="caracteristica">
+                    <h3>Conscientização Ambiental</h3>
+                    <p>Ao calcular a emissão de CO2, a ferramenta ajuda as pessoas a se conscientizarem do impacto ambiental de suas escolhas de transporte e isso pode incentivar mudanças comportamentais com adoção de boas práticas.</p>
+                </div>
+                <div class="caracteristica">
+                    <h3>Facilidade de Uso e Acessibilidade</h3>
+                    <p>A GreenCalcPro foi projetada para ser simples e intuitiva, permitindo que qualquer pessoa insira dados básicos de forma rápida e que torne a ferramenta acessível para todos os níveis de familiaridade com questões ambientais e dados técnicos.</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <img src="/img/gcp1bg.png" alt="Logo da Empresa">
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/sites/sobre.html">Sobre</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <a href="mailto:suporte@empresa.com" class="btn-contact">Suporte</a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2024 GreenCalcPro. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </footer>
+</body>
+<script>
+    // Função que adiciona a classe 'scrolled' quando o scroll é maior que 50px
+    window.addEventListener('scroll', function() {
+        var navbar = document.querySelector('.navbar');
+        if (window.scrollY > 50) {  // Quando o scroll é maior que 50px
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });
+</script>
+</html>

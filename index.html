@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenCalcPro</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Barra de Menu com logo -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="/img/gcp1bg.png" alt="Logo GreenCalcPro">
+        </div>
+        <ul>
+            <li><a href="/sites/sobre.html">Sobre</a></li>
+            <li><a href="/index.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banner com subtítulo e botão -->
+    <div class="banner">
+        <h1>GreenCalcPro</h1>
+        <h2>Calculadora de Carbono: Soluções Sustentáveis</h2>
+        <a href="#calc" class="botao-banner">Saber Mais</a>
+    </div>
+    <div>
+        <a id="calc"></a>
+    </div>
+    <br>
+    <br>
+    <!-- Conteúdo com as caixas centralizadas -->
+    
+    <div class="conteudo-centralizado">
+        <div class="caixa">
+            <div class="texto">
+                <h2>O que é Calculadora de Carbono?</h2>
+                <p>A crescente preocupação com as mudanças climáticas e a busca por um futuro sustentável, têm levado à necessidade de ferramentas que ajudem a monitorar e reduzir a emissão de gases poluentes. Nesse contexto, surge a calculadora de carbono para veículos, uma ferramenta essencial para quem deseja minimizar sua pegada de carbono.</p>
+                <p>Uma calculadora de carbono para veículos é um recurso que estima a quantidade de dióxido de carbono (CO2) emitida por um veículo durante seu funcionamento. Essa estimativa é baseada em alguns fatores, como o tipo de combustível e a quilometragem percorrida. Ao inserir esses dados, o usuário pode obter uma noção clara da quantidade de CO2 que emite, permitindo uma reflexão sobre o impacto ambiental de suas escolhas. <a href="/sites/sobre.html">Saber mais</a></p>
+            </div>
+            <div class="imagem-container">
+                <img src="/img/pexels-karolina-grabowska-6958507.jpg" alt="Imagem Caixa 1" class="imagem-caixa">
+                <!-- Aqui pode colocar os ícones como imagem ou como botões simples -->
+            </div>
+        </div>
+        <div class="caixa">
+            <div class="texto">
+                <h2>Acesse a GreenCalcPro</h2>
+                <p>A nossa Calculadora de CO2 é uma ferramenta prática que permite avaliar as emissões de dióxido de carbono (CO2) de diferentes meios de transporte, como carro, moto, caminhão, avião, trem e ônibus</p>
+                <p>Como Funciona? Basta informar o tipo de transporte, o combustível e a distância percorrida. A calculadora fornecerá uma estimativa da quantidade de CO2 emitida.</p>
+                <p>Venha Conhecer Nossa Calculadora! Faça o download do nosso software para controlar a sua pegada de carbono e fazer escolhas mais sustentáveis.</p>
+                <a href="https://github.com/EduardoPxt/GCP/releases/download/V1.3.0/gcp.exe" download="gcp.exe" class="botao-acesso">Download GreenCalcPro</a>
+            </div>
+            <div class="imagem-container">
+                <img src="/img/pexels-kindelmedia-9800036.jpg" alt="Imagem Caixa 2" class="imagem-caixa">
+            </div>
+        </div>
+        
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="/img/gcp1bg.png" alt="Logo da Empresa">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/sites/sobre.html">Sobre</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <a href="mailto:suporte@empresa.com" class="btn-contact">Suporte</a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2024 GreenCalcPro. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+    
+</body>
+<script>
+    // Função que adiciona a classe 'scrolled' quando o scroll é maior que 50px
+    window.addEventListener('scroll', function() {
+        var navbar = document.querySelector('.navbar');
+        if (window.scrollY > 50) {  // Quando o scroll é maior que 50px
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });
+</script>
+
+</html>
